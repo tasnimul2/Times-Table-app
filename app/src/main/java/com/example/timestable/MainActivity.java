@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         for(int i = 1; i <=12; i++){
             product = numEntered *i;
             properTT.add(" "+ numEntered + " x " + i + " = " + product );
-            ArrayAdapter<String> UpdatedTimesTableAdapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,properTT);
-            table.setAdapter(UpdatedTimesTableAdapter);
+            ArrayAdapter<String> UpdatedTimesTableAdapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,properTT);//passes ArrayLists's data to the list view
+            table.setAdapter(UpdatedTimesTableAdapter);//connects the arrayList (UpdatedTimesTableAdapter) with the list view
 
         }
     }
@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
+        
+        //Set up the 1 times table as the default table when app is launched
         table = (ListView) findViewById(R.id.timesTableListView);
         timesTable = new ArrayList<String>();
         for(int i = 1; i <=12; i++){
