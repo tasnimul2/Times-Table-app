@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Times Table</string>
+    <string name="which_table">Which Table?</string>
+    <string name="todo">TODO</string>
+    <string name="viewing_times_table_of">VIEWING TIMES TABLE OF :</string>
+</resources>
