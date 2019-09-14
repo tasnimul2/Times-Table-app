@@ -1,5 +1,5 @@
 # :heavy_multiplication_x: Times Table App :heavy_division_sign:
-Times tables app that holds the tables of 0 to 1 billion 
+Times tables app that holds the tables of 0 to 100 million
 ### [SOURCE CODE](https://github.com/mohammed1478/TimesTable/blob/master/app/src/main/java/com/example/timestable/MainActivity.java)
 
 ### [DOWNLOAD APP](https://github.com/mohammed1478/TimesTable/blob/master/app/release/app-release.apk)
